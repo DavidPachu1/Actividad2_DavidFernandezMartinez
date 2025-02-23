@@ -1,0 +1,361 @@
+@font-face {  
+    font-family: 'MiFuente';  
+    src:url(../tipografia/Breaking\ Bad.ttf);  
+}  
+
+:root {
+    box-sizing: border-box;
+
+}
+
+#index {  
+    background-image: url(../img/fondo.jpg);  
+    background-size: cover;  
+    background-attachment: fixed;  
+    font-family: 'MiFuente';  
+    font-size: 14px;  
+    color: white;  
+}  
+
+.logo {  
+    background-image: url(img/logo.PNG);
+    height: 200px;  
+    width: 200px;  
+    display: block;
+    margin: 0 auto;
+}  
+
+.texto {  
+    text-align: center;   
+    margin: 0; 
+    font-family: 'miFuente';
+}  
+
+.poster {  
+    background-image:url(img/poster.jpg);
+    width: 700px;
+    height: 300px;
+    border-radius: 22px;  
+    border: 10px outset brown;   
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#formulario{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+#web-tabla{
+    background-color: #0c3e11;
+}
+
+#table1{
+    text-align: center;
+    background-color:rgb(43, 44, 36);
+    border: 10px solid rgb(43, 44, 36);
+    border-collapse: collapse;
+    font-family: Helvetica;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+td {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    border: 8px solid rgb(43, 44, 36);
+}
+
+.simbolo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.simbolo_size{
+    height: 60px;
+    width: 70px;
+    background-repeat: no-repeat;
+}
+
+.nombre{
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#WW {
+    background-image: url(../img/walterwhite.png);
+    background-position: center;
+    width: 60px;
+    height: 60px;
+
+}
+
+#hank {
+    background-image:url(../img/hankschrader.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 50px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#hector {
+    background-image: url(../img/hectorsalamanca.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 65px;
+    width: 70px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#tuco {
+    background-image: url(../img/tucosalamanca.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 60px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#gustavo {
+    background-image: url(../img/gustavofrink.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#gale {
+    background-image: url(../img/gale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#jesse {
+    background-image: url(../img/jessiepinkman.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#saul {
+    background-image: url(../img/saulgoodman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 50px;
+    margin: 0 auto;
+}
+#skyler {
+    background-image: url(../img/skylerwhite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#maria {
+    background-image: url(../img/marieschrader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#badger {
+    background-image: url(../img/badger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#mike {
+    background-image: url(../img/mike.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+.color1{
+    background-color: rgb(187, 219, 46);
+}
+
+.color2{
+    background-color: rgb(171, 142, 208);
+}
+
+.color3{
+    background-color: rgb(213, 234, 113);
+}
+
+.color4{
+    background-color: rgb(240, 248, 197);
+}
+
+.color5{
+    background-color: rgb(137, 164, 23);
+}
+.color6{
+    background-color: rgb(99, 113, 34);
+}
+.color7{
+    background-color: rgb(197, 224, 83);
+}
+.color8{
+    background-color: rgb(188, 196, 157);
+}
+.color9{
+    background-color: rgb(133, 143, 90);
+}
+
+#table2 {
+    text-align: center;
+    background-color:rgb(43, 44, 36);
+    border: 5px solid red;
+    border-collapse: collapse;
+    font-family: Helvetica;
+    height: 80px;
+    width: 60px;
+    margin: auto;
+}
+
+#table2 td{
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
+
+#bus {
+    background-image: url(../img/bus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#pistola {
+    background-image: url(../img/pistola.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#probeta {
+    background-image: url(../img/pocima.png);
+    background-position:center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#movil {
+    background-image: url(../img/movil.png);
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#mosca {
+    background-image: url(../img/mosca.png);
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#bolsa {
+    background-image: url(../img/cristal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#pizza {
+    background-image: url(../img/pizza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#calzoncillos {
+    background-image: url(../img/calzoncillos.png);
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#mascara {
+    background-image: url(../img/mascara.png);
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#plato {
+    background-image: url(../img/plato.png);
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
